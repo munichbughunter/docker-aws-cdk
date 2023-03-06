@@ -57,6 +57,7 @@ container.
 ## Build 
 Update the `AWS_CDK_VERSION` in both `Makefile` and `Dockerfile`. The run:
 
+    docker buildx create --use
     make build
 
 Docker Hub will automatically trigger a new build.
